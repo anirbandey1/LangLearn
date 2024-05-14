@@ -39,4 +39,11 @@ func main() {
 	}
 	fmt.Println()
 
+    fmt.Println("Static Array")
+    slice2 := [8]int{-1,0,1}
+    for i:= 0 ; i<len(slice2) ; i++ {
+        fmt.Printf("%d ",slice2[i])
+    }
+    fmt.Println()
+
 }
